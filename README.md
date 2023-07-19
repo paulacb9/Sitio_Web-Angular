@@ -1,27 +1,34 @@
-# ProyectoAngular
+# Sitio_Web-Agular
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+IMPORTANT: no importados los ficheros node_modules, .angular, .vscode... instalar/crear proyecto de Angular para generarse automaticamente
 
-## Development server
+## Instalar Angular CLI desde el CMD:
+- Entrar en el cmd
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+	npm install -g @angular/cli
 
-## Code scaffolding
+## Crear y arrancar proyecto Angular desde el CMD:
+- Entrar en la carpeta del proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	cd C:/wamp64/www/Curso-JS
 
-## Build
+- Generar el poryecto (nombre proyecto 'proyecto-angular')
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+	ng new proyecto-angular
 
-## Running unit tests
+- Arrancar aplicación de Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+	cd proyecto-angular
 
-## Running end-to-end tests
+	ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navegando en `http://localhost:4200/`. La aplicación se actualizará automaticamente cuando se realicen y guarden cambios en los archivos.
 
-## Further help
+## Crear componentes
+- En la carpeta del proyecto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  ng generate component component-name
+
+
+También se pueden generar otros: `ng generate directive|pipe|service|class|guard|interface|enum|module`.
