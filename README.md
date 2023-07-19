@@ -28,7 +28,6 @@ Navegando en `http://localhost:4200/`. La aplicación se actualizará automatica
 ## Crear componentes
 - En la carpeta del proyecto:
 
-  ng generate component component-name
-
+  ng generate component nombre-componente
 
 También se pueden generar otros: `ng generate directive|pipe|service|class|guard|interface|enum|module`.
