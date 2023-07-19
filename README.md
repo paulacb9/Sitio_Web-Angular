@@ -6,22 +6,22 @@ IMPORTANT: no importados los ficheros node_modules, .angular, .vscode... instala
 ## Instalar Angular CLI desde el CMD:
 - Entrar en el cmd
 
-	npm install -g @angular/cli
+$ npm install -g @angular/cli
 
 ## Crear y arrancar proyecto Angular desde el CMD:
 - Entrar en la carpeta del proyecto
 
-	cd C:/wamp64/www/Curso-JS
+	`cd C:/wamp64/www/Curso-JS`
 
 - Generar el poryecto (nombre proyecto 'proyecto-angular')
 
-	ng new proyecto-angular
+	`ng new proyecto-angular`
 
 - Arrancar aplicación de Angular
 
-	cd proyecto-angular
+	`cd proyecto-angular`
 
-	ng serve
+	`ng serve`
 
 Navegando en `http://localhost:4200/`. La aplicación se actualizará automaticamente cuando se realicen y guarden cambios en los archivos.
 
