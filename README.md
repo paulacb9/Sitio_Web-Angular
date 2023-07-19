@@ -6,7 +6,7 @@ IMPORTANT: no importados los ficheros node_modules, .angular, .vscode... instala
 ## Instalar Angular CLI desde el CMD:
 - Entrar en el cmd
 
-$ npm install -g @angular/cli
+	`npm install -g @angular/cli`
 
 ## Crear y arrancar proyecto Angular desde el CMD:
 - Entrar en la carpeta del proyecto
@@ -23,7 +23,7 @@ $ npm install -g @angular/cli
 
 	`ng serve`
 
-Navegando en `http://localhost:4200/`. La aplicación se actualizará automaticamente cuando se realicen y guarden cambios en los archivos.
+Navegando en http://localhost:4200/. La aplicación se actualizará automaticamente cuando se realicen y guarden cambios en los archivos.
 
 ## Crear componentes
 - En la carpeta del proyecto:
